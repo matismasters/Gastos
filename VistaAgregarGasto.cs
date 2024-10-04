@@ -24,6 +24,8 @@ namespace KingFungi
             //string codigoCosecha = Console.ReadLine();
             //Cosecha cosecha = new Cosecha(codigoCosecha);
 
+            Console.WriteLine("Agregado exitosamente!");
+
             return new Gasto(razon, precio, null, null);
         }
     }
